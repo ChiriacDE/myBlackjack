@@ -63,7 +63,7 @@ def play_game():
     print(f"{x * 10}Computer's first card: {computer_cards[0]}")
 
     #Check if the game is there's a Blackjack or if it goes over
-    if user_score >= 21 or computer_score >= 21:
+    if user_score >= 21:
       game_over = True
     else:
       #Ask for another card
