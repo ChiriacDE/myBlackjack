@@ -23,8 +23,8 @@ def calculate_score(cards):
 
 
 def compare(user_score, computer_score):
-  # if user_score > 21 and computer_score > 21:
-  #   return "You  went over. You lose \U0001F44E"
+  if user_score > 21 and computer_score > 21:
+    return "You  went over. You lose \U0001F44E"
 
   if user_score == computer_score: #If the computer and user both have the same score, then it's a draw. 
     return "Draw... \U0001F643"
