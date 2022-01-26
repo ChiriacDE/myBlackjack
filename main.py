@@ -87,7 +87,15 @@ def play_game():
   print(compare(user_score, computer_score)  )
 
 #Print first of all the rules
-print(f"#################### Our House Rules #########################\n\n{x * 4}## The deck is unlimited in size. \n{x * 4}## The deck is unlimited in size.\n{x * 4}## There are no jokers.\n{x * 4}## The Jack/Queen/King all count as 10.\n{x * 4}## The the Ace can count as 11 or 1.\n{x * 4}## The cards have equal probability of being drawn.\n{x * 4}## Cards are not removed from the deck as they are drawn.\n{x * 4}## The computer is the dealer.\n\n")
+print("#################### Our House Rules #########################\n")
+print(f"{x * 4}## The deck is unlimited in size.")
+print(f"{x * 4}## The deck is unlimited in size.")
+print(f"{x * 4}## There are no jokers.")
+print(f"{x * 4}## The Jack/Queen/King all count as 10.")
+print(f"{x * 4}## The the Ace can count as 11 or 1.")
+print(f"{x * 4}## The cards have equal probability of being drawn.")
+print(f"{x * 4}## Cards are not removed from the deck as they are drawn.")
+print(f"{x * 4}## The computer is the dealer.\n")
 
 #Ask the user if they want to restart the game.
 while input("Do you a game of BlackJack? Type 'y' or 'n': ").lower() == "y":
